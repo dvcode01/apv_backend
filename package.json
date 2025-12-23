@@ -1,0 +1,28 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "description": "Backend de la aplicacion de pacientes veterinaria",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node --watch --env-file=.env server.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "React",
+    "MERN",
+    "MongoDB"
+  ],
+  "author": "David Olivero",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "0.44.0",
+    "cors": "^2.8.5",
+    "express": "5.2.0",
+    "jsonwebtoken": "9.0.3",
+    "mongoose": "9.0.0",
+    "nodemailer": "^7.0.11"
+  }
+}
